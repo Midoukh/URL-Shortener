@@ -1,0 +1,15 @@
+@media screen and (max-width: 600px){
+    .header nav ul{
+        display: none;
+    }
+    .description{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);       
+    }
+    .descriptive-image{
+        order: 1;
+    }
+    .action{
+        order: 2;
+    }
+}
